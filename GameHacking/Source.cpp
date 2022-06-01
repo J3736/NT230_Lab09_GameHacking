@@ -51,7 +51,7 @@ int main() {
 
     std::cout << "debugginfo: gameBaseAddress = " << gameBaseAddress << std::endl;
     
- //static address
+    //static address
     DWORD offsetGameToBaseAdress = 0x00188144;
     std::vector<DWORD> pointsOffsets{ 0x4F4, 0x40, 0x540, 0x10C, 0x50, 0x0 };
 
