@@ -30,6 +30,7 @@ DWORD GetModuleBaseAddress(TCHAR* lpszModuleName, DWORD pID) {
 
 void Hacking()
 {
+    // Viet Khoa
     HWND hGameWindow = FindWindow(NULL, L"Age of Empires Expansion");
     if (hGameWindow == NULL) {
         //std::cout << "Start the game!" << std::endl;
